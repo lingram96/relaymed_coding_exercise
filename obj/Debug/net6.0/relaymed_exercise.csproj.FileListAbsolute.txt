@@ -1,0 +1,15 @@
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/relaymed_exercise
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/relaymed_exercise.deps.json
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/relaymed_exercise.runtimeconfig.json
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/relaymed_exercise.dll
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/ref/relaymed_exercise.dll
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/bin/Debug/net6.0/relaymed_exercise.pdb
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.csproj.AssemblyReference.cache
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.AssemblyInfoInputs.cache
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.AssemblyInfo.cs
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.csproj.CoreCompileInputs.cache
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.dll
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/ref/relaymed_exercise.dll
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.pdb
+/Users/lewisingram/Development/c#_stuff/relaymed_exercise/obj/Debug/net6.0/relaymed_exercise.genruntimeconfig.cache

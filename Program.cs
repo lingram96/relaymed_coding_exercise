@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace RelayMed
 {
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Patient.CreatePatient();
+           Console.ReadKey();
         }
     }
 }
