@@ -25,18 +25,5 @@ namespace RelayMed
             get { return orderType;}
         }
 
-        public static void CreateOrder()
-        {
-            Random numberGen = new Random();
-            string orderNum = "MRN-ID" + numberGen.Next(10, 9999);
-
-            Console.WriteLine($"Patient order number is {orderNum}");
-        }
-
-        public static void RemoveOrder()
-        {
-
-        }
-
     }
 }

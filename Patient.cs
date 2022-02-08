@@ -9,7 +9,7 @@ namespace RelayMed
     {
         public string name { get; set; }
         public int orders { get; set; }
-        private double medicalRecordNumber { get; set; }
+        public double medicalRecordNumber { get; set; }
 
         public Patient (string _name, double _mrn)
         {
@@ -31,20 +31,6 @@ namespace RelayMed
         public double PatientMRN
         {
             get { return medicalRecordNumber;}
-        }
-
-        public static void CreatePatient()
-        {
-
-            Console.WriteLine("Please enter patient name: ");
-            string name = Console.ReadLine();
-
-            Console.WriteLine($"Patient name is {name}.");
-        }
-
-        public static void UpdatePatient()
-        {
-            
         }
 
     }
