@@ -2,31 +2,50 @@ using System;
 using RelayMed;
 
 
-
 namespace RelayMed
 {
 
     class Patient
     {
-        public string name;
-        public int orders;
-        private double medicalRecordNumber;
+        public string name { get; set; }
+        public int orders { get; set; }
+        private double medicalRecordNumber { get; set; }
 
-        public Patient (string _name, int _orders, double _mrn)
+        public Patient (string _name, double _mrn)
         {
             name = _name;
-            orders = _orders;
+            orders = 0;
             medicalRecordNumber = _mrn;
+        }
 
+        public string PatientName
+        {
+            get { return name; }
+        }
+
+        public int PatientOrders
+        {
+            get { return orders;}
+        }
+
+        public double PatientMRN
+        {
+            get { return medicalRecordNumber;}
         }
 
         public static void CreatePatient()
         {
-            Patient patient01 = new Patient("Bob", 5, 1234566);
 
-            Console.WriteLine(patient01.name);
-            Console.WriteLine(patient01.orders);
-            Console.WriteLine(patient01.medicalRecordNumber);
+            Console.WriteLine("Please enter patient name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine($"Patient name is {name}.");
         }
+
+        public static void UpdatePatient()
+        {
+            
+        }
+
     }
 }

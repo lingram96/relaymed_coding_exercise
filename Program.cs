@@ -7,8 +7,7 @@ namespace RelayMed
     {
         static void Main(string[] args)
         {
-            Patient.CreatePatient();
-           Console.ReadKey();
+           Order.CreateOrder();
         }
     }
 }
