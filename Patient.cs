@@ -38,9 +38,17 @@ namespace RelayMed
 
         public static void CreatePatient()
         {
+            List<string> patientsList = new List<string>{};
 
             Console.WriteLine("Please enter patient name: ");
             string name = Console.ReadLine();
+
+            patientsList.Add(name);
+
+            for (int i = 0; i < patientsList.Count; i++)
+            {
+                Console.WriteLine(patientsList[i]);
+            }
             
             // Append new patient to list of patients, then show the patients currently in the list
         }
