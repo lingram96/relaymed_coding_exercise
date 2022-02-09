@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using RelayMed;
 
 namespace RelayMed
@@ -8,33 +9,18 @@ namespace RelayMed
     {
         static void Main(string[] args)
         {
-            CreatePatient();
-            GenerateMRN();
+            List<string> patientsList = new List<string>{};
+
+            Patient.CreatePatient();
+            Patient.CreatePatient();
+            for (int i = 0; i < patientsList.Count; i++)
+            {
+                Console.WriteLine(patientsList[i]);
+            }
+            Console.ReadKey();
+            Patient.GenerateMRN();
             Console.ReadKey();
         }
 
-        static void CreatePatient()
-        {
-            Console.WriteLine("Please enter patient name: ");
-            string name = Console.ReadLine();
-            Console.WriteLine($"Patient name is {name}.");
-        }
-
-        static void UpdatePatient()
-        {
-            Console.WriteLine("Search for patient by name: ");
-        }
-
-        static void GenerateMRN()
-        {
-            Random numberGen = new Random();
-            string mrn = "MRN-ID" + numberGen.Next(10, 9999);
-            Console.WriteLine($"Patient Medical Record Number is {mrn}");
-        }
-
-        static void RemoveOrder()
-        {
-
-        }
     }
 }
